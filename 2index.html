@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeNote - 사전등록</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Pretendard', sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      padding: 60px 20px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #cbd5e1;
+    }
+    .section {
+      width: 100%;
+      max-width: 600px;
+      padding: 40px 20px;
+    }
+    .section h2 {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+      color: #facc15;
+    }
+    .section p, .section li {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    input, select, button {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+    input, select {
+      background-color: #1e293b;
+      color: #f1f5f9;
+    }
+    button {
+      background-color: #facc15;
+      color: #0f172a;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #eab308;
+    }
+    footer {
+      padding: 40px 20px;
+      font-size: 0.9em;
+      color: #94a3b8;
+      text-align: center;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #facc15;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TimeNote</h1>
+    <p>내가 만들어가는 나의 공간</p>
+    <nav>
+      <a href="#register">사전등록</a>
+      <a href="#learn">타임노트란?</a>
+    </nav>
+  </header>
+
+  <section class="section" id="register">
+    <h2>✨ 사전등록 이벤트</h2>
+    <p>디지털 추모 타임캡슐 TimeNote의 정식 런칭을 앞두고 사전등록을 받고 있습니다.<br>
+    사전등록하신 분께는 다음과 같은 혜택이 제공됩니다:</p>
+    <ul>
+      <li>✓ 전원: 무료 체험권 제공</li>
+      <li>✓ 추첨: 맞춤 메모리북 제작권 증정</li>
+      <li>✓ 베타 서비스 우선 초대</li>
+    </ul>
+
+    <form>
+      <input type="text" placeholder="이름을 입력하세요" required>
+      <input type="email" placeholder="이메일을 입력하세요" required>
+      <input type="tel" placeholder="전화번호를 입력하세요" required>
+      <select>
+        <option>남기고 싶은 콘텐츠는?</option>
+        <option>사진</option>
+        <option>영상</option>
+        <option>음성</option>
+        <option>편지</option>
+        <option>기타</option>
+      </select>
+      <button type="submit">사전등록하기</button>
+    </form>
+  </section>
+
+  <section class="section" id="learn">
+    <h2>Ὅ6 타임노트란?</h2>
+    <p>타임노트는 사랑하는 사람에게 나의 마음을 남기고, 떠난 뒤에도 그 마음을 전할 수 있도록 돕는 디지털 추모 플랫폼입니다.</p>
+    <ul>
+      <li><strong>디지털 타임캡슐:</strong> 사진, 영상, 음성, 편지 등 다양한 형식의 콘텐츠를 남길 수 있어요.</li>
+      <li><strong>예약 전송 기능:</strong> 특정 날짜나 사후 시점에 콘텐츠 자동 전송.</li>
+      <li><strong>추모 계정 전환:</strong> 사용자가 사망한 경우, 자동으로 추모 공간으로 전환됩니다.</li>
+      <li><strong>메모리북 제작:</strong> 남겨진 콘텐츠를 실제 책으로 인쇄해주는 서비스도 예정되어 있어요.</li>
+    </ul>
+  </section>
+
+  <footer>
+    문의: ghj050806@konkuk.ac.kr | 전화: 010-4393-5445<br>
+    인스타그램: @timenote.official
+  </footer>
+</body>
+</html>
